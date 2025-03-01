@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Career Compass</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Login Container with Background Image -->
+    <div class="login-container">
+      <div class="login-box">
+        <h1>Career Compass</h1>
+        <p>Welcome! Please enter your name to get started into</p>
+
+        <!-- Image Section -->
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWtmzk0sSy6_6_u0k5p6jwpKJU4YueBx4ayw&s"
+          alt="Career Compass"
+          class="background-img"
+        />
+
+        <!-- Login Form -->
+        <form id="loginForm">
+          <div class="input-group">
+            <input
+              type="text"
+              id="username"
+              placeholder="Enter your name"
+              required
+            />
+            <span class="icon">👤</span>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+
+        <!-- Error Message -->
+        <p id="errorMessage" class="error-message"></p>
+      </div>
+    </div>
+
+    <!-- Success Popup -->
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <h2>Login Successful!</h2>
+        <p>Welcome, <span id="userNamePopup"></span>!</p>
+        <button onclick="redirectToHome()">Go to Career Compass</button>
+        <button onclick="logout()">Logout</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

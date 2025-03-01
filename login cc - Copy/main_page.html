@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Compass Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Welcome to Career Compass</h1>
+      <p>Welcome, <span id="welcomeName"></span>!</p>
+      <p>
+        Explore your career path, discover opportunities, and track your
+        progress!
+      </p>
+
+      <!-- Navigation Button to Main Project -->
+      <button
+        onclick="file:///C:/Users/Admin/Desktop/ccsv2/index.html?name=SOWRAJ.S&email=sowrajsethu2004%40gmail.com&message=wow#hero()"
+      >
+        Go to Career Compass Project
+      </button>
+
+      <!-- Logout Button -->
+      <button onclick="logout()">Logout</button>
+    </div>
+
+    <script>
+      // Display student's name on the home page
+      document.getElementById("welcomeName").textContent =
+        localStorage.getItem("currentUser");
+
+      // Navigate to the main project page
+      function navigateToMainProject() {
+        window.location.href = "career_compass_project/index.html"; // Replace with your main project URL
+      }
+
+      // Logout functionality
+      function logout() {
+        localStorage.removeItem("currentUser");
+        window.location.href = "index.html"; // Redirect to login page
+      }
+    </script>
+  </body>
+</html>

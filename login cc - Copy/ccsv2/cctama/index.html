@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Task Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar for Career Paths -->
+      <div class="sidebar">
+        <h3>Career Paths</h3>
+        <ul id="career-list">
+          <li>
+            <a href="#" onclick="loadCareerTasks('developer')"
+              >Software Developer</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="loadCareerTasks('designer')"
+              >Graphic Designer</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="loadCareerTasks('data-scientist')"
+              >Data Scientist</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="loadCareerTasks('marketer')"
+              >Digital Marketer</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Main content area -->
+      <div class="main-content">
+        <h1 id="career-title">Choose a Career Path</h1>
+
+        <div id="tasks">
+          <h2>Completed Tasks</h2>
+          <ul id="completed-tasks"></ul>
+
+          <h2>Future Tasks</h2>
+          <ul id="future-tasks"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

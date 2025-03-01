@@ -1,0 +1,175 @@
+/* Resetting Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.navbar .nav-logo {
+  font-size: 1.8rem;
+}
+
+.navbar .nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .nav-links li {
+  margin-left: 1.5rem;
+}
+
+.navbar .nav-links li a {
+  color: #acd8ec71;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+  color: #f1f5f8;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7fa0c2;
+  color: #1b1a1a;
+  height: 100vh;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  padding: 0.8rem 1.5rem;
+  background-color: #b6abab;
+  color: #131313;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.hero .btn:hover {
+  background-color: #357ab7;
+  color: white;
+}
+
+/* Career Buttons Section */
+.career-videos {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.career-videos h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.career-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.career-btn {
+  padding: 1rem 2rem;
+  background-color: #4a90e2;
+  color: rgb(15, 14, 14);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.career-btn:hover {
+  background-color: #357ab7;
+}
+
+/* Career Path Video Section */
+.career-section {
+  padding: 4rem 2rem;
+  background-color: #e3f2fd;
+  text-align: center;
+}
+
+.career-section h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.video-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.video-item {
+  width: 300px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-item video {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* About Section */
+.about {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+.footer {
+  padding: 2rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 1rem;
+}

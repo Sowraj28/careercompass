@@ -1,0 +1,13 @@
+Career Compass is an innovative platform designed to help school students choose their career path in a more informed and effective way. By combining the power of Virtual Reality (VR), AI-driven chatbot assistance, and a task manager, Career Compass offers a unique and interactive experience for students to explore various careers and gain insights into their future workspaces.
+
+Features
+1. Virtual Reality Career Exploration
+Immersive VR Experience: Students can explore and experience different career environments through Virtual Reality videos. This feature allows students to virtually step into the workspace of various careers and understand the daily responsibilities, work culture, and environment of each profession.
+2. AI-Powered Chatbot
+Career Guidance: Our intelligent chatbot helps students by answering career-related questions, providing career advice, and analyzing the results of a career assessment. The chatbot tailors suggestions based on the student's interests, strengths, and aspirations.
+3. Task Manager
+Organized Career Planning: The task manager helps students set goals and track their progress in career exploration. It allows them to create tasks, set deadlines, and monitor their journey toward making an informed career decision.
+How It Works
+Explore Careers: Use the VR feature to explore different careers by immersing yourself in realistic work environments.
+Ask the Chatbot: Have questions about a particular career? Ask our AI chatbot for personalized career advice.
+Track Your Progress: Use the task manager to set personal career exploration goals and stay on track throughout your journey.
